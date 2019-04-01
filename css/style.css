@@ -1,0 +1,168 @@
+
+.navbar{
+    background: #000;
+}
+#navbarNav .navbar-nav{
+    margin-top: 0px;
+}
+#navbarNav .navbar-nav li{
+    padding-left: 15px;
+}
+
+#mCarousel{
+background: #222;
+} 
+.carousel-item{
+    height: 450px;
+}
+.img-1{
+    background: url('../img/image1.jpeg') left center no-repeat;
+    background-size: cover;
+}
+.img-2{
+    background: url('../img/image2.jpeg') left center no-repeat;
+    background-size: cover;
+}
+.img-3{
+    background: url('../img/image3.jpeg') left center no-repeat;
+    background-size: cover;
+}
+#icons .fa{
+    font-size: 50px
+
+}
+#getStart{
+    background: url('../img/pc.jpeg') top center no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+#getStart .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    height: 300px;
+    background-attachment: fixed;
+}
+#getStart .col{
+    padding:10% 0%
+}
+
+#homeVideo{
+    background: url('../img/people.jpeg') top center no-repeat;
+    background-attachment: fixed;
+    height: 250px;
+}
+#homeVideo .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    height: 250px;
+    background-attachment: fixed;
+}
+#homeVideo .fa{
+    font-size: 50px;
+}
+
+
+#photoGallery img{
+    height: 220px ;
+    width: 100%;
+}
+
+#foot{
+    background: #000;
+    color: #fff;
+    font-size: 14px
+}
+/* ABOUT PAGE */
+
+#about-page-header{
+    background: url('../img/image2.jpeg') bottom right no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    background-size: cover;
+}
+#services-page-header{
+    background: url('../img/image2.jpeg') left top no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    background-size: cover
+}
+#blog-page-header{
+    background: url('../img/image3.jpeg') right top no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    background-size: cover
+}
+#contact-page-header{
+    background: url('../img/people.jpeg') right  no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    
+}
+
+#about-we-do img {
+    width: 350px;
+    height: 350px;
+}
+#about-icon-boxes .fa{
+    font-size: 50px;
+    padding-bottom: 15px
+}
+
+#testimonial .slick-prev:before,.slick-next:before{
+    color: #000
+}
+
+
+
+
+
+@media(max-width:374px){
+     #mCarousel h3{
+        font-size: 2rem;
+    }
+    #mCarousel p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:500px){
+    #mCarousel h3{
+        font-size: 3rem
+    }
+    #mCarousel p{
+        font-size: 18px
+    }
+    #getStart h3{
+        font-size: 25px;
+    }
+    #getStart p{
+        font-size: 18px;
+    }
+    #getStart .col{
+        padding: 13.5% 0%
+    }
+}
+@media(max-width:767px){
+    #getStart .col{
+        padding: 11.5% 0%
+    }
+}
+
+
+@media (max-width: 1200px){
+    .card-columns {
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 768px){
+    .card-columns {
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media (max-width: 580px){
+    .card-columns {
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
